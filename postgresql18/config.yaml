@@ -1,0 +1,16 @@
+name: PostgreSQL 18
+description: Standaard PostgreSQL voor de Home Assistant Recorder
+version: "18.6.1"
+slug: postgresql18
+arch:
+  - aarch64
+  - amd64
+startup: services
+boot: auto
+init: false
+timeout: 60
+backup: cold
+options:
+  recorder_password: null
+schema:
+  recorder_password: password(24,128)
