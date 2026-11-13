@@ -1,6 +1,6 @@
 name: PostgreSQL 18
 description: Standaard PostgreSQL voor de Home Assistant Recorder
-version: "18.6.1"
+version: "18.7.1"
 slug: postgresql18
 arch:
   - aarch64
